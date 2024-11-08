@@ -1,70 +1,102 @@
-# Getting Started with Create React App
+# redux-toolkit-hooks_add_minus_add-by-value
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Counter application built with ReactJs [function-component] and redux toolkit. just has three buttons one to Plus one, and one to minus one, and other to add by value here i assigned value by 3. just to learn and practice redux toolkit with react"Hooks"
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+- [Features](#Features)
+- [Components](#Components)
+  - [App](#App)
+  - [Counter](#Counter)
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [Links](#Links)
+- [Screenshot](#Screenshot)
+- [What I learned](#what-i-learned)
+- [Continued development](#continued-development)
+- [Author](#author)
+- [Acknowledgments](#Acknowledgments)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## overview
+This is a simple Counter application built with ReactJs [function-component] and redux toolkit. 
+just has three buttons one to Plus one, and one to minus one, and other to add by value here i assigned value by 3
+just to learn and practice redux toolkit with react"Hooks"
+how to deel with useSelector-useDispatch
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## Features
+- simple Counter that has three buttons Plus, minus, and add by value
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Components
 
-### `npm run build`
+### App
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The main component that has another component called counter 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Counter
+it holds the whole logic
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Installation
+To get started with this project, follow these steps:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+you can clone the project or download it as Zip file.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/olahasan/redux-toolkit-hooks_add_minus_add-by-value
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Navigate to the project directory:
+   cd <project-directory>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+3. Install the required dependencies:
+   npm install   
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## Usage
+To run the application, use the following command:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+npm start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Links
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+If you want to open the link in a new tab, you can:
 
-### Analyzing the Bundle Size
+- Press **Ctrl** (or **Cmd** on Mac) while clicking the link.
+- Right-click the link and select **Open link in new tab**.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Otherwise, all links will open in the same tab.
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Solution URL: [here](https://github.com/olahasan/redux-toolkit-hooks_add_minus_add-by-value)
 
-### Advanced Configuration
+- Live Site URL: [here](https://redux-toolkit-hooks-add-by-value.netlify.app/)
+  OR [here](https://counter-redux-toolkit-hooks-add-minus-add-by-value.surge.sh/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+ ## Screenshot
+ 
+![Screenshot](./public/counter.png)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## what-i-learned
+Through this project:
+1. I learned in this project how to create react app and treat with function component,
+2. how to deal with redux [Redux-toolkit - counterSlice - store - Hooks - useSelector - useDispatch]
+3. how to deal with useSelector-useDispatch
+4. how to deploy it on netlify and surge
 
-### `npm run build` fails to minify
+## Continued Development
+In the future, I plan to:
+- learn more about reactJs Hooks.
+- learn more about redux toolkit with reactJs Hooks.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Author
+
+GitHub - @olahasan
+
+### Acknowledgments
+
+I would like to thank the **[unique coderz academy](https://www.youtube.com/@UniqueCoderzAcademy)** for providing this challenge and to the community for their support.
+
