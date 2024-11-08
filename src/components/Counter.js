@@ -29,7 +29,7 @@ function Counter() {
 
   return (
     <div style={{ textAlign: "center" }}>
-      <h3>Redux-toolkit - Hooks - useSelector - useDispatch</h3>
+      <h3>Redux-toolkit - counterSlice- Hooks - useSelector - useDispatch</h3>
       <p>{count}</p>
       <button onClick={handleDecrease}>decrease[1]</button>
       <button onClick={handleIncrease}> increase[1]</button>
